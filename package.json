@@ -6,12 +6,20 @@
   "author": "euxn23 <euxn23@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^13.13.4",
-    "@types/react": "^16.9.34",
-    "next": "^9.3.6",
-    "prettier": "^2.0.5",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@types/node": "^14.11.1",
+    "@types/react": "^16.9.49",
+    "next": "^9.5.3",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "purgecss": "^2.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "typescript": "^3.8.3"
+    "sass": "^1.26.11",
+    "tailwindcss": "^1.8.10",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
   }
 }
